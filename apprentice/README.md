@@ -1,2 +1,0 @@
-Sparkbox Apprentice Page
-========================
