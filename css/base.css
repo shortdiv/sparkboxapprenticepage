@@ -1,0 +1,388 @@
+/* Fonts Styling */
+
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=0003f8c8-d8c7-4d1f-95ed-a15461eba017");
+@font-face{
+  font-family:"Bodoni W01 Book 709611";
+  src:url("Fonts/dd896678-2492-4538-a2f8-a1087ebc1e37.eot?#iefix");
+  src:url("Fonts/dd896678-2492-4538-a2f8-a1087ebc1e37.eot?#iefix") format("eot"),url("Fonts/ba4b8c27-e5cc-4b4b-b277-127dca0e8f4f.woff") format("woff"),url("Fonts/0771e6fd-6e6a-4c81-a462-08cd2d69e3ec.ttf") format("truetype"),url("Fonts/d0c30112-880f-411f-b967-c2a4a7d3754b.svg#d0c30112-880f-411f-b967-c2a4a7d3754b") format("svg");
+}
+@font-face{
+  font-family:"Bodoni W01 Bold 709602";
+  src:url("Fonts/0a3b2afc-1177-49fc-b852-6d36f4b37543.eot?#iefix");
+  src:url("Fonts/0a3b2afc-1177-49fc-b852-6d36f4b37543.eot?#iefix") format("eot"),url("Fonts/0ca9a4ed-de46-457a-bc45-f0f87ffd44f2.woff") format("woff"),url("Fonts/87bae0ea-8bc0-45e8-b82d-ccb13870d0e2.ttf") format("truetype"),url("Fonts/46e3e54a-6865-45b5-a951-f0c86163af88.svg#46e3e54a-6865-45b5-a951-f0c86163af88") format("svg");
+}
+@font-face{
+  font-family:"Bodoni W01 Bold Italic 709608";
+  src:url("Fonts/8e76616d-ce24-4651-8581-84dcc7ae3751.eot?#iefix");
+  src:url("Fonts/8e76616d-ce24-4651-8581-84dcc7ae3751.eot?#iefix") format("eot"),url("Fonts/6f551fc0-4c6f-4ef0-b026-f1e148977a7b.woff") format("woff"),url("Fonts/32eb1298-d5c4-4112-a2f5-ee0ac5051b72.ttf") format("truetype"),url("Fonts/79868027-7d4d-452f-a701-80ad10720730.svg#79868027-7d4d-452f-a701-80ad10720730") format("svg");
+}
+
+.t--main-title {
+  font-family: 'Knockout 26 A', 'Knockout 26 B';
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 0.85;
+  font-size: 4.9em;
+  text-align: center;
+}
+
+.t--content-text {
+  font-family:"Bodoni W01 Book 709611";
+  line-height: 1.25em;
+  font-size: 1.2em;
+  text-align:left;
+}
+
+.t--subtitle-italic {
+  font-family:"Bodoni W01 Bold Italic 709608";
+  font-size: 4em;
+}
+
+.t--background-text {
+  font-family: 'Knockout 94 A', 'Knockout 94 B';
+  font-size: 6em;
+  line-height: 0.6;
+  color: #fff;
+}
+
+.t--apprentice-names {
+  font-family: 'Knockout 94 A', 'Knockout 94 B';
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.t--apprentice-projects {
+  font-family:'Knockout 26 A', 'Knockout 26 B';
+  font-size: 3em;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.t--tagline {
+  font-family:'Bodoni W01 Book 709611';
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+.t--qualifier {
+  font-family:'Knockout 26 A', 'Knockout 26 B';
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+.t--blurb--italic {
+  font-family:'Bodoni W01 Bold Italic 709608';
+  font-weight: 900;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+
+.t--after-event {
+  font-family:'Bodoni W01 Bold Italic 709608';
+  font-size: 1em;
+}
+
+.apprentice--future {
+  font-size: 1.2em;
+}
+
+.footer--text {
+  font-size: 1em;
+}
+
+/* Space Styling */
+.l--padding-above--tiny {
+  padding-top: 2%;
+}
+
+.l--padding-above--small {
+  padding-top: 5%;
+}
+
+.l--padding-above--medium {
+  padding-top: 10%;
+}
+
+.l--padding-above--large {
+  padding-top: 20%;
+}
+
+.l--padding-above--xl {
+  padding-top: 25%;
+}
+
+.l--padding-below--half-tiny {
+  padding-bottom: 1%;
+}
+
+.l--padding-below--tiny {
+  padding-bottom: 2%;
+}
+
+.l--padding-below--small {
+  padding-bottom: 5%;
+}
+
+.l--padding-below--medium {
+  padding-bottom: 10%;
+}
+
+.l--padding-below--large {
+  padding-bottom: 15%;
+}
+
+.l--padding-r--medium {
+  padding-right: 10%;
+}
+
+.l--padding-r--large {
+  padding-right: 20%;
+}
+
+.l--padding-l--small {
+  padding-left: 5%
+}
+
+.l--padding-l--medium {
+  padding-left: 10%;
+}
+
+.l--padding-l--large {
+  padding-left: 20%;
+}
+
+.l--padding-l--xl {
+  padding-left: 25%;
+}
+
+.l--margin-r--tiny {
+  margin-right: 2%;
+}
+
+.l--margin-r--medium {
+  margin-right: 10%
+}
+
+.l--margin-r--large {
+  margin-right: 20%
+}
+
+.l--margin-l--tiny {
+  margin-left:2%;
+}
+
+.l--margin-l--small {
+  margin-left: 5%;
+}
+
+.l--margin-l--medium{
+  margin-left: 10%
+}
+
+.l--margin-l--large {
+  margin-left: 15%;
+}
+
+.l--margin-rl--medium {
+  margin-right: 10%;
+  margin-left: 10%
+}
+
+.l--margin-rl--large {
+  margin-right: 15%;
+  margin-left: 15%
+}
+
+/*
+.l--margin-l--medium + .l--margin-r--medium {
+  margin-left: 2%;
+}
+*/
+
+.l--margin-above--tiny {
+  margin-top: 2%;
+}
+
+.l--margin-above--small {
+  margin-top: 5%;
+}
+
+.l--margin-above--medium {
+  margin-top: 10%;
+}
+
+.l--margin-above--large {
+  margin-top: 20%;
+}
+
+.l--margin-below--tiny {
+  margin-bottom: 2%
+}
+.l--margin-below--small {
+  margin-bottom: 5%;
+}
+
+.l--margin-below--medium {
+  margin-bottom: 10%;
+}
+
+.l--margin-below--large {
+  margin-bottom: 20%;
+}
+
+/* Body Styling */
+body {
+  text-align: center;
+}
+
+
+/*clearfix*/
+.clearfix:after{
+  clear: both;
+  display: table;
+  content:"";
+}
+
+
+/* Content Styling */
+
+
+.apprentice-overlapping-text{
+  position: relative;
+  margin-top: -1.9em;
+  z-index: 100;
+}
+
+.apprentice-class-number {
+  position: relative;
+}
+
+.overlapping-container {
+  width: 380px;
+  margin: 0 auto;
+}
+
+/* Profile Styling */
+
+.apprentice-profile {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.apprentice-profile--img {
+  border-bottom: 2px solid #fff;
+}
+
+.apprentice--project li {
+  text-decoration: underline;
+  display:block;
+}
+
+/* Funky Styling Things */
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  width: 4%;
+}
+
+/* Button Styling */
+.call-to-action{
+  display: inline;
+  padding: 5%;
+  background: black;
+  border-radius: 4px;
+  color: white;
+}
+
+
+/* Background Color Block Sections */
+
+.color-block--green{
+  background-color: #c9f5de;
+}
+.color-block--orange {
+  background-color: #fac8a1;
+}
+
+.color-block--yellow {
+  background-color: #f9f1b8;
+}
+
+.color-block--blue {
+  background-color: #c6e1e9;
+}
+
+/* widgets */
+.icon-sparkbox {
+  display: block;
+  background: url("/img/sparkbox.svg") no-repeat center;
+  margin: 0 auto;
+  background-size: 70px;
+}
+
+.apprentice--socialicons a{
+}
+
+.socialicons--twitter {
+  width: 50px;
+  height: 50px;
+  background: url("/img/twitter.svg") #fff no-repeat center;
+  border-radius: 50%;
+  background-size: 20px 20px;
+  display: inline-block;
+  margin-right: 0.5em;
+
+}
+
+.socialicons--instagram {
+  width: 50px;
+  height: 50px;
+  background: url("/img/instagram.svg") #fff no-repeat center;
+  border-radius: 50%;
+  background-size: 20px 20px;
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+
+}
+
+.socialicons--dribbble {
+  width: 50px;
+  height:50px;
+  background: url("/img/dribbble.svg") #fff no-repeat center;
+  border-radius: 50%;
+  background-size: 20px 20px;
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+
+@media (min-width: 600px) {
+  .icon-sparkbox {
+    background-size: 85px;
+  }
+
+  .apprentice-overlapping-text{
+    margin-top: -2.1em;
+  }
+
+}
+
+@media (min-width: 920px) {
+  .icon-sparkbox {
+    background-size: 100px;
+  }
+
+  .apprentice-overlapping-text{
+    margin-top: -2.6em;
+
+  }
+
+  .apprentice-profile {
+    display: inline-block;
+
+  }
